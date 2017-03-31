@@ -1,8 +1,8 @@
-//
+    //
 //  ViewController.swift
 //  Swift App
 //
-//  Created by Robert DeSagun on 3/22/17.
+//  Created by Robert on 3/22/17.
 //  Copyright © 2017 Me Yo. All rights reserved.
 //
 
@@ -10,7 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var myLabel: UILabel!
+
+    var tapCount = 0
+    
+    @IBAction func myButton(_ sender: AnyObject) {
+        tapCount = tapCount+1
+        print(tapCount)
+    }
+
     override func viewDidLoad() {
+
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -22,4 +32,5 @@ class ViewController: UIViewController {
 
 
 }
+
 

@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Swift App
 //
-//  Created by Robert DeSagun on 3/22/17.
+//  Created by Robert on 3/22/17.
 //  Copyright © 2017 Me Yo. All rights reserved.
 //
 
