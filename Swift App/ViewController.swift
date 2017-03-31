@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     var tapCount = 0
     
     @IBAction func myButton(_ sender: AnyObject) {
-        tapCount = tapCount+1
+        tapCount = tapCount+2
         print(tapCount)
     }
 
